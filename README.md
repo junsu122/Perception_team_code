@@ -1,1 +1,11 @@
 # Perception_team_code
+- Yolo 사용 (boundingbox,segmentation)
+- 퓨전 사용 
+- 카메라 라이다 캡쳐
+- 카메라 전처리
+- 라이다 전처리 (crop,cluster,line_erase)
+- manta cam 사용
+- 퓨전 체크용 코드
+- 신호등 코드
+- 표지판 코드
+- 콘트래킹 코드
