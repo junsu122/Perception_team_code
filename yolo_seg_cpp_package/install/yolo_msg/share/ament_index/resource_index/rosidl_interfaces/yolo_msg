@@ -1,0 +1,6 @@
+msg/BoundingBox.idl
+msg/BoundingBox.msg
+msg/BoundingBoxArray.idl
+msg/BoundingBoxArray.msg
+msg/TrafficSign.idl
+msg/TrafficSign.msg
