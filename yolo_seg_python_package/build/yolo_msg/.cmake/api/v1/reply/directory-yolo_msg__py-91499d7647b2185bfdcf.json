@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yolo_msg__py",
+		"source" : "/home/junsu/yolo_python/build/yolo_msg/yolo_msg__py"
+	}
+}

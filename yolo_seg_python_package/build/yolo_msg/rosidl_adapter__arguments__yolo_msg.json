@@ -1,0 +1,7 @@
+{
+  "package_name": "yolo_msg",
+  "non_idl_tuples": [
+    "/home/junsu/yolo_python/src/yolo_msg:msg/BoundingBox.msg",
+    "/home/junsu/yolo_python/src/yolo_msg:msg/BoundingBoxArray.msg"
+  ]
+}

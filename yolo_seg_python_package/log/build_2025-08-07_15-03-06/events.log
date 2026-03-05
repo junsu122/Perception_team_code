@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (yolo) JobQueued: {'identifier': 'yolo', 'dependencies': OrderedDict()}
+[0.000542] (yolo_msg) JobQueued: {'identifier': 'yolo_msg', 'dependencies': OrderedDict()}
+[0.000555] (yolo) JobStarted: {'identifier': 'yolo'}
+[0.006091] (yolo_msg) JobStarted: {'identifier': 'yolo_msg'}
+[0.099876] (-) TimerEvent: {}
+[0.200294] (-) TimerEvent: {}
+[0.274372] (yolo_msg) JobProgress: {'identifier': 'yolo_msg', 'progress': 'cmake'}
+[0.274478] (yolo_msg) JobProgress: {'identifier': 'yolo_msg', 'progress': 'build'}
+[0.274514] (yolo_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/junsu/yolo_python/build/yolo_msg', '--', '-j8', '-l8'], 'cwd': '/home/junsu/yolo_python/build/yolo_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'junsu'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/junsu/yolo_python/install/yolo_msg/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/junsu/yolo_python/install/yolo_msg/lib:/usr/local/cuda-12.6/lib64:/home/junsu/onnxruntime-linux-x64-gpu-1.17.0/lib:/home/junsu/1.yolo_seg_linux/src/yolo/onnxruntime/lib:/home/junsu/1.yolo_seg_linux/install/yolo_msg:/opt/onnxruntime/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/junsu'), ('OLDPWD', '/home/junsu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1397'), ('SYSTEMD_EXEC_PID', '1858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3153'), ('COLCON_PREFIX_PATH', '/home/junsu/yolo_python/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'junsu'), ('JOURNAL_STREAM', '8:17533'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/junsu/yolo_python/install/yolo_msg/lib/x86_64-linux-gnu/pkgconfig:/home/junsu/yolo_python/install/yolo_msg/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'junsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin'), ('SESSION_MANAGER', 'local/junsu:@/tmp/.ICE-unix/1670,unix/junsu:/tmp/.ICE-unix/1670'), ('INVOCATION_ID', 'd4ad66f1bdd6483cac0b4c70e2933790'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junsu/yolo_python/install/yolo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:43e15995-72dd-4def-aaec-f3647c0884e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junsu/yolo_python/build/yolo_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/home/junsu/VimbaX_2025-1/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/junsu/yolo_python/install/yolo_msg')]), 'shell': False}
+[0.298514] (yolo_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300370] (-) TimerEvent: {}
+[0.400580] (-) TimerEvent: {}
+[0.502019] (-) TimerEvent: {}
+[0.588951] (yolo_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.602120] (-) TimerEvent: {}
+[0.667335] (yolo_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.673067] (yolo_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.693221] (yolo_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.703076] (-) TimerEvent: {}
+[0.725399] (yolo_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.756980] (yolo_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803223] (-) TimerEvent: {}
+[0.810769] (yolo_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.868069] (yolo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo', 'build', '--build-base', '/home/junsu/yolo_python/build/yolo/build', 'install', '--record', '/home/junsu/yolo_python/build/yolo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/junsu/yolo_python/src/yolo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'junsu', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_PACKAGE_PATH': '/home/junsu/yolo_python/install/yolo_msg/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/junsu/yolo_python/install/yolo_msg/lib:/usr/local/cuda-12.6/lib64:/home/junsu/onnxruntime-linux-x64-gpu-1.17.0/lib:/home/junsu/1.yolo_seg_linux/src/yolo/onnxruntime/lib:/home/junsu/1.yolo_seg_linux/install/yolo_msg:/opt/onnxruntime/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/junsu', 'OLDPWD': '/home/junsu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1397', 'SYSTEMD_EXEC_PID': '1858', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3153', 'COLCON_PREFIX_PATH': '/home/junsu/yolo_python/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'junsu', 'JOURNAL_STREAM': '8:17533', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/junsu/yolo_python/install/yolo_msg/lib/x86_64-linux-gnu/pkgconfig:/home/junsu/yolo_python/install/yolo_msg/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junsu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin', 'SESSION_MANAGER': 'local/junsu:@/tmp/.ICE-unix/1670,unix/junsu:/tmp/.ICE-unix/1670', 'INVOCATION_ID': 'd4ad66f1bdd6483cac0b4c70e2933790', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/junsu/yolo_python/install/yolo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:43e15995-72dd-4def-aaec-f3647c0884e9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junsu/yolo_python/build/yolo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junsu/yolo_python/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'GENICAM_GENTL64_PATH': ':/home/junsu/VimbaX_2025-1/cti', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/junsu/yolo_python/install/yolo_msg'}, 'shell': False}
+[0.903333] (-) TimerEvent: {}
+[1.003778] (-) TimerEvent: {}
+[1.073697] (yolo) StderrLine: {'line': b"/home/junsu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.073951] (yolo) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.103934] (-) TimerEvent: {}
+[1.204765] (-) TimerEvent: {}
+[1.238226] (yolo) StdoutLine: {'line': b'running egg_info\n'}
+[1.265076] (yolo) StdoutLine: {'line': b'writing ../../build/yolo/yolo.egg-info/PKG-INFO\n'}
+[1.266256] (yolo) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt\n'}
+[1.266410] (yolo) StdoutLine: {'line': b'writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt\n'}
+[1.266452] (yolo) StdoutLine: {'line': b'writing requirements to ../../build/yolo/yolo.egg-info/requires.txt\n'}
+[1.266490] (yolo) StdoutLine: {'line': b'writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt\n'}
+[1.304522] (yolo) StdoutLine: {'line': b"reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'\n"}
+[1.304755] (-) TimerEvent: {}
+[1.306092] (yolo) StdoutLine: {'line': b"writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'\n"}
+[1.306332] (yolo) StdoutLine: {'line': b'running build\n'}
+[1.306405] (yolo) StdoutLine: {'line': b'running build_py\n'}
+[1.306527] (yolo) StdoutLine: {'line': b'copying yolo/traffic.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo\n'}
+[1.306692] (yolo) StdoutLine: {'line': b'copying yolo/__init__.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo\n'}
+[1.306864] (yolo) StdoutLine: {'line': b'copying yolo/cone.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo\n'}
+[1.307242] (yolo) StdoutLine: {'line': b'running install\n'}
+[1.316964] (yolo) StdoutLine: {'line': b'running install_lib\n'}
+[1.332278] (yolo) StdoutLine: {'line': b'running install_data\n'}
+[1.332633] (yolo) StdoutLine: {'line': b'copying resource/yolo -> /home/junsu/yolo_python/install/yolo/share/ament_index/resource_index/packages\n'}
+[1.333281] (yolo) StdoutLine: {'line': b'copying package.xml -> /home/junsu/yolo_python/install/yolo/share/yolo\n'}
+[1.333681] (yolo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.356903] (yolo) StdoutLine: {'line': b"removing '/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.357197] (yolo) StdoutLine: {'line': b'Copying ../../build/yolo/yolo.egg-info to /home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info\n'}
+[1.357819] (yolo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.404513] (yolo) StdoutLine: {'line': b'Installing cone script to /home/junsu/yolo_python/install/yolo/lib/yolo\n'}
+[1.404955] (-) TimerEvent: {}
+[1.405289] (yolo) StdoutLine: {'line': b'Installing traffic script to /home/junsu/yolo_python/install/yolo/lib/yolo\n'}
+[1.405469] (yolo) StdoutLine: {'line': b"writing list of installed files to '/home/junsu/yolo_python/build/yolo/install.log'\n"}
+[1.450907] (yolo) CommandEnded: {'returncode': 0}
+[1.460058] (yolo_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.462036] (yolo) JobEnded: {'identifier': 'yolo', 'rc': 0}
+[1.505090] (-) TimerEvent: {}
+[1.605345] (-) TimerEvent: {}
+[1.705625] (-) TimerEvent: {}
+[1.806014] (-) TimerEvent: {}
+[1.908674] (-) TimerEvent: {}
+[2.009128] (-) TimerEvent: {}
+[2.109542] (-) TimerEvent: {}
+[2.209954] (-) TimerEvent: {}
+[2.309881] (yolo_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.310045] (-) TimerEvent: {}
+[2.410250] (-) TimerEvent: {}
+[2.510638] (-) TimerEvent: {}
+[2.611167] (-) TimerEvent: {}
+[2.631069] (yolo_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.633590] (yolo_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[2.633701] (yolo_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.633747] (yolo_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.633784] (yolo_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.633824] (yolo_msg) StderrLine: {'line': b'\n'}
+[2.633866] (yolo_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.633908] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.633948] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.633983] (yolo_msg) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[2.634016] (yolo_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.634050] (yolo_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.661295] (yolo_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.662773] (yolo_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[2.662862] (yolo_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.662905] (yolo_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.662942] (yolo_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.662977] (yolo_msg) StderrLine: {'line': b'\n'}
+[2.663012] (yolo_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.663046] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.663081] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.663115] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.663149] (yolo_msg) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[2.663183] (yolo_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.663217] (yolo_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.687233] (yolo_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[2.687465] (yolo_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.687529] (yolo_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.687590] (yolo_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.687666] (yolo_msg) StderrLine: {'line': b'\n'}
+[2.687720] (yolo_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.687769] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.687827] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.687884] (yolo_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.687937] (yolo_msg) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[2.687992] (yolo_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.688046] (yolo_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.693336] (yolo_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /opt/ros/humble/bin/python3\n'}
+[2.693550] (yolo_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.693594] (yolo_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.712968] (-) TimerEvent: {}
+[2.791274] (yolo_msg) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.813996] (-) TimerEvent: {}
+[2.841325] (yolo_msg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.854888] (yolo_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/junsu/yolo_python/build/yolo_msg\n'}
+[2.872530] (yolo_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.880236] (yolo_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.887452] (yolo_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_yolo_msg\n'}
+[2.914244] (-) TimerEvent: {}
+[3.018258] (-) TimerEvent: {}
+[3.118869] (-) TimerEvent: {}
+[3.201940] (yolo_msg) StdoutLine: {'line': b'running egg_info\n'}
+[3.218976] (-) TimerEvent: {}
+[3.227615] (yolo_msg) StdoutLine: {'line': b'writing yolo_msg.egg-info/PKG-INFO\n'}
+[3.237212] (yolo_msg) StdoutLine: {'line': b'writing dependency_links to yolo_msg.egg-info/dependency_links.txt\n'}
+[3.237452] (yolo_msg) StdoutLine: {'line': b'writing top-level names to yolo_msg.egg-info/top_level.txt\n'}
+[3.319890] (-) TimerEvent: {}
+[3.321375] (yolo_msg) StdoutLine: {'line': b"reading manifest file 'yolo_msg.egg-info/SOURCES.txt'\n"}
+[3.323179] (yolo_msg) StdoutLine: {'line': b"writing manifest file 'yolo_msg.egg-info/SOURCES.txt'\n"}
+[3.372360] (yolo_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_yolo_msg_egg\n'}
+[3.420067] (-) TimerEvent: {}
+[3.435279] (yolo_msg) StdoutLine: {'line': b'[  5%] Built target yolo_msg__cpp\n'}
+[3.439049] (yolo_msg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.439288] (yolo_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.439587] (yolo_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.454288] (yolo_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_generator_c.dir/rosidl_generator_c/yolo_msg/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[3.460783] (yolo_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_generator_c.dir/rosidl_generator_c/yolo_msg/msg/detail/bounding_box_array__functions.c.o\x1b[0m\n'}
+[3.520206] (-) TimerEvent: {}
+[3.620629] (-) TimerEvent: {}
+[3.720915] (-) TimerEvent: {}
+[3.822471] (-) TimerEvent: {}
+[3.923881] (-) TimerEvent: {}
+[4.025054] (-) TimerEvent: {}
+[4.042951] (yolo_msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libyolo_msg__rosidl_generator_c.so\x1b[0m\n'}
+[4.082090] (yolo_msg) StdoutLine: {'line': b'[ 23%] Built target yolo_msg__rosidl_generator_c\n'}
+[4.082347] (yolo_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msg/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.082738] (yolo_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msg/msg/bounding_box_array__type_support.cpp.o\x1b[0m\n'}
+[4.084774] (yolo_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.084995] (yolo_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msg/msg/detail/dds_fastrtps/bounding_box_array__type_support.cpp.o\x1b[0m\n'}
+[4.090396] (yolo_msg) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.090723] (yolo_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.090796] (yolo_msg) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.126732] (-) TimerEvent: {}
+[4.140082] (yolo_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msg/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.226849] (-) TimerEvent: {}
+[4.327917] (-) TimerEvent: {}
+[4.438923] (-) TimerEvent: {}
+[4.542937] (-) TimerEvent: {}
+[4.637910] (yolo_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msg/msg/detail/bounding_box_array__type_support.cpp.o\x1b[0m\n'}
+[4.643111] (-) TimerEvent: {}
+[4.743908] (-) TimerEvent: {}
+[4.759221] (yolo_msg) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.823877] (yolo_msg) StdoutLine: {'line': b'[ 46%] Built target yolo_msg__rosidl_typesupport_cpp\n'}
+[4.840772] (yolo_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msg/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[4.843795] (yolo_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msg/msg/detail/bounding_box_array__type_support.c.o\x1b[0m\n'}
+[4.844088] (-) TimerEvent: {}
+[4.884906] (yolo_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msg/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.891238] (yolo_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msg/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[4.898978] (yolo_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msg/msg/bounding_box_array__type_support.cpp.o\x1b[0m\n'}
+[4.910590] (yolo_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msg/msg/detail/bounding_box_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.917469] (yolo_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libyolo_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.945539] (-) TimerEvent: {}
+[4.952377] (yolo_msg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.972598] (yolo_msg) StdoutLine: {'line': b'[ 66%] Built target yolo_msg__rosidl_typesupport_introspection_c\n'}
+[5.032089] (yolo_msg) StdoutLine: {'line': b'[ 66%] Built target yolo_msg__rosidl_typesupport_c\n'}
+[5.047772] (-) TimerEvent: {}
+[5.149641] (-) TimerEvent: {}
+[5.160435] (yolo_msg) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.252286] (-) TimerEvent: {}
+[5.310375] (yolo_msg) StdoutLine: {'line': b'[ 69%] Built target yolo_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[5.352278] (-) TimerEvent: {}
+[5.356706] (yolo_msg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.428567] (yolo_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.452476] (-) TimerEvent: {}
+[5.465326] (yolo_msg) StdoutLine: {'line': b'[ 74%] Built target yolo_msg__rosidl_typesupport_introspection_cpp\n'}
+[5.531419] (yolo_msg) StdoutLine: {'line': b'[ 74%] Built target yolo_msg__rosidl_typesupport_fastrtps_c\n'}
+[5.541221] (yolo_msg) StdoutLine: {'line': b'[ 74%] Built target yolo_msg\n'}
+[5.548706] (yolo_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.552807] (-) TimerEvent: {}
+[5.658904] (-) TimerEvent: {}
+[5.759184] (-) TimerEvent: {}
+[5.859471] (-) TimerEvent: {}
+[5.959745] (-) TimerEvent: {}
+[6.015180] (yolo_msg) StdoutLine: {'line': b'[ 76%] Built target yolo_msg__py\n'}
+[6.030504] (yolo_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_generator_py.dir/rosidl_generator_py/yolo_msg/msg/_bounding_box_array_s.c.o\x1b[0m\n'}
+[6.030760] (yolo_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_generator_py.dir/rosidl_generator_py/yolo_msg/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[6.060628] (-) TimerEvent: {}
+[6.161167] (-) TimerEvent: {}
+[6.261542] (-) TimerEvent: {}
+[6.279936] (yolo_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msg/libyolo_msg__rosidl_generator_py.so\x1b[0m\n'}
+[6.317834] (yolo_msg) StdoutLine: {'line': b'[ 84%] Built target yolo_msg__rosidl_generator_py\n'}
+[6.328625] (yolo_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.328820] (yolo_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.328875] (yolo_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.361657] (-) TimerEvent: {}
+[6.424910] (yolo_msg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msg/yolo_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.427618] (yolo_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msg/yolo_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.432834] (yolo_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msg/yolo_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.458174] (yolo_msg) StdoutLine: {'line': b'[100%] Built target yolo_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[6.458423] (yolo_msg) StdoutLine: {'line': b'[100%] Built target yolo_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.462252] (-) TimerEvent: {}
+[6.463433] (yolo_msg) StdoutLine: {'line': b'[100%] Built target yolo_msg__rosidl_typesupport_c__pyext\n'}
+[6.467103] (yolo_msg) CommandEnded: {'returncode': 0}
+[6.467859] (yolo_msg) JobProgress: {'identifier': 'yolo_msg', 'progress': 'install'}
+[6.470527] (yolo_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/junsu/yolo_python/build/yolo_msg'], 'cwd': '/home/junsu/yolo_python/build/yolo_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'junsu'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/junsu/yolo_python/install/yolo_msg/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/junsu/yolo_python/install/yolo_msg/lib:/usr/local/cuda-12.6/lib64:/home/junsu/onnxruntime-linux-x64-gpu-1.17.0/lib:/home/junsu/1.yolo_seg_linux/src/yolo/onnxruntime/lib:/home/junsu/1.yolo_seg_linux/install/yolo_msg:/opt/onnxruntime/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/junsu'), ('OLDPWD', '/home/junsu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1397'), ('SYSTEMD_EXEC_PID', '1858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3153'), ('COLCON_PREFIX_PATH', '/home/junsu/yolo_python/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'junsu'), ('JOURNAL_STREAM', '8:17533'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/junsu/yolo_python/install/yolo_msg/lib/x86_64-linux-gnu/pkgconfig:/home/junsu/yolo_python/install/yolo_msg/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'junsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin'), ('SESSION_MANAGER', 'local/junsu:@/tmp/.ICE-unix/1670,unix/junsu:/tmp/.ICE-unix/1670'), ('INVOCATION_ID', 'd4ad66f1bdd6483cac0b4c70e2933790'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/junsu/yolo_python/install/yolo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:43e15995-72dd-4def-aaec-f3647c0884e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junsu/yolo_python/build/yolo_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/home/junsu/VimbaX_2025-1/cti'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/junsu/yolo_python/install/yolo_msg')]), 'shell': False}
+[6.475735] (yolo_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.477761] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/ament_index/resource_index/rosidl_interfaces/yolo_msg\n'}
+[6.478017] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.478063] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.478128] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/bounding_box_array.h\n'}
+[6.478212] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.478290] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__type_support.h\n'}
+[6.478366] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__struct.h\n'}
+[6.478460] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__functions.h\n'}
+[6.478529] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__struct.h\n'}
+[6.478599] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__functions.c\n'}
+[6.478662] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__type_support.h\n'}
+[6.478734] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__functions.c\n'}
+[6.478801] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__functions.h\n'}
+[6.478885] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/bounding_box.h\n'}
+[6.478983] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.479043] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/library_path.sh\n'}
+[6.479109] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/library_path.dsv\n'}
+[6.479172] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_generator_c.so\n'}
+[6.479256] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_generator_c.so" to ""\n'}
+[6.479348] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.479431] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.479496] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.479578] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.479664] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[6.479725] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.479787] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[6.479884] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.479938] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.479988] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.480037] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.480093] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.480147] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__builder.hpp\n'}
+[6.480202] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__traits.hpp\n'}
+[6.480258] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__type_support.hpp\n'}
+[6.480312] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__builder.hpp\n'}
+[6.480368] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__struct.hpp\n'}
+[6.480538] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__struct.hpp\n'}
+[6.480626] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__traits.hpp\n'}
+[6.480693] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__type_support.hpp\n'}
+[6.480752] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/bounding_box.hpp\n'}
+[6.480815] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/bounding_box_array.hpp\n'}
+[6.480884] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.480944] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.481006] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.481072] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.481130] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.481186] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.481242] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/dds_fastrtps\n'}
+[6.481299] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.481493] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.482683] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.484036] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.486001] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.487537] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__type_support.c\n'}
+[6.489297] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__type_support.c\n'}
+[6.490975] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[6.492327] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__rosidl_typesupport_introspection_c.h\n'}
+[6.494054] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.495038] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_introspection_c.so\n'}
+[6.495189] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.495226] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_c.so\n'}
+[6.495280] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_c.so" to ""\n'}
+[6.495332] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg\n'}
+[6.495397] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg\n'}
+[6.495434] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail\n'}
+[6.495470] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__type_support.cpp\n'}
+[6.495504] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__type_support.cpp\n'}
+[6.495540] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.495593] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/include/yolo_msg/yolo_msg/msg/detail/bounding_box_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.495629] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[6.495665] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.495737] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_cpp.so\n'}
+[6.495961] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[6.496026] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/pythonpath.sh\n'}
+[6.496093] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/pythonpath.dsv\n'}
+[6.496156] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg-0.0.0-py3.10.egg-info\n'}
+[6.496233] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.496304] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.496385] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.496475] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.496606] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg\n'}
+[6.496666] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_c.c\n'}
+[6.497415] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.497553] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.497661] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.497733] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.497845] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/_yolo_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.497954] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/libyolo_msg__rosidl_generator_py.so\n'}
+[6.498046] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg\n'}
+[6.498148] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box.py\n'}
+[6.499302] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box_array_s.c\n'}
+[6.499652] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box_array.py\n'}
+[6.499790] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/__init__.py\n'}
+[6.499911] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box_s.c\n'}
+[6.500004] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/__init__.py\n'}
+[6.545624] (yolo_msg) StdoutLine: {'line': b"Listing '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg'...\n"}
+[6.546069] (yolo_msg) StdoutLine: {'line': b"Compiling '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/__init__.py'...\n"}
+[6.546159] (yolo_msg) StdoutLine: {'line': b"Listing '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg'...\n"}
+[6.546227] (yolo_msg) StdoutLine: {'line': b"Compiling '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/__init__.py'...\n"}
+[6.546300] (yolo_msg) StdoutLine: {'line': b"Compiling '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box.py'...\n"}
+[6.546361] (yolo_msg) StdoutLine: {'line': b"Compiling '/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/msg/_bounding_box_array.py'...\n"}
+[6.551904] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.552078] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.552131] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.552190] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.552323] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.552554] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/local/lib/python3.10/dist-packages/yolo_msg/yolo_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.552733] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_generator_py.so\n'}
+[6.552909] (yolo_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/junsu/yolo_python/install/yolo_msg/lib/libyolo_msg__rosidl_generator_py.so" to ""\n'}
+[6.552986] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/msg/BoundingBox.idl\n'}
+[6.553045] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/msg/BoundingBoxArray.idl\n'}
+[6.553114] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/msg/BoundingBox.msg\n'}
+[6.553186] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/msg/BoundingBoxArray.msg\n'}
+[6.553230] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/ament_index/resource_index/package_run_dependencies/yolo_msg\n'}
+[6.553296] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/ament_index/resource_index/parent_prefix_path/yolo_msg\n'}
+[6.553334] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/ament_prefix_path.sh\n'}
+[6.553370] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/ament_prefix_path.dsv\n'}
+[6.553423] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/path.sh\n'}
+[6.553478] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/environment/path.dsv\n'}
+[6.553589] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/local_setup.bash\n'}
+[6.553645] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/local_setup.sh\n'}
+[6.553703] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/local_setup.zsh\n'}
+[6.553759] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/local_setup.dsv\n'}
+[6.553885] (yolo_msg) StdoutLine: {'line': b'-- Installing: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/package.dsv\n'}
+[6.554087] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/ament_index/resource_index/packages/yolo_msg\n'}
+[6.554191] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_generator_cExport.cmake\n'}
+[6.554260] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.554304] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.554363] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.554403] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_generator_cppExport.cmake\n'}
+[6.554462] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.554500] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.554554] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.554602] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.554656] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_cExport.cmake\n'}
+[6.554711] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.554781] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.554859] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.555923] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_cppExport.cmake\n'}
+[6.556031] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.556088] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_generator_pyExport.cmake\n'}
+[6.556154] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/export_yolo_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.556210] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[6.556265] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.556320] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.556375] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.556431] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.556488] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.556542] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.556601] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msgConfig.cmake\n'}
+[6.556656] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/cmake/yolo_msgConfig-version.cmake\n'}
+[6.556713] (yolo_msg) StdoutLine: {'line': b'-- Up-to-date: /home/junsu/yolo_python/install/yolo_msg/share/yolo_msg/package.xml\n'}
+[6.559706] (yolo_msg) CommandEnded: {'returncode': 0}
+[6.562343] (-) TimerEvent: {}
+[6.575860] (yolo_msg) JobEnded: {'identifier': 'yolo_msg', 'rc': 0}
+[6.578855] (-) EventReactorShutdown: {}

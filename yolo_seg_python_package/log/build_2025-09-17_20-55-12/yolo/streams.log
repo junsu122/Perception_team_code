@@ -1,0 +1,33 @@
+[2.751s] Invoking command in '/home/junsu/yolo_python/src/yolo': PYTHONPATH=/home/junsu/yolo_python/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/junsu/yolo_python/build/yolo/build install --record /home/junsu/yolo_python/build/yolo/install.log --single-version-externally-managed install_data
+[2.910s] /home/junsu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.910s]   warnings.warn(msg)
+[3.015s] running egg_info
+[3.035s] writing ../../build/yolo/yolo.egg-info/PKG-INFO
+[3.092s] writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+[3.092s] writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+[3.144s] writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+[3.144s] writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+[3.262s] reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[3.300s] writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[3.301s] running build
+[3.301s] running build_py
+[3.303s] copying yolo/traffic.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo
+[3.304s] copying yolo/check_3d.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo
+[3.305s] copying yolo/__init__.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo
+[3.305s] copying yolo/cone.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo
+[3.307s] copying yolo/check_traffic.py -> /home/junsu/yolo_python/build/yolo/build/lib/yolo
+[3.308s] running install
+[3.320s] running install_lib
+[3.345s] running install_data
+[3.353s] copying resource/yolo -> /home/junsu/yolo_python/install/yolo/share/ament_index/resource_index/packages
+[3.353s] copying package.xml -> /home/junsu/yolo_python/install/yolo/share/yolo
+[3.354s] running install_egg_info
+[3.370s] removing '/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[3.370s] Copying ../../build/yolo/yolo.egg-info to /home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[3.371s] running install_scripts
+[3.412s] Installing c_traffic script to /home/junsu/yolo_python/install/yolo/lib/yolo
+[3.457s] Installing check script to /home/junsu/yolo_python/install/yolo/lib/yolo
+[3.457s] Installing cone script to /home/junsu/yolo_python/install/yolo/lib/yolo
+[3.457s] Installing traffic script to /home/junsu/yolo_python/install/yolo/lib/yolo
+[3.458s] writing list of installed files to '/home/junsu/yolo_python/build/yolo/install.log'
+[3.495s] Invoked command in '/home/junsu/yolo_python/src/yolo' returned '0': PYTHONPATH=/home/junsu/yolo_python/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/yolo_python/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/junsu/yolo_python/build/yolo/build install --record /home/junsu/yolo_python/build/yolo/install.log --single-version-externally-managed install_data

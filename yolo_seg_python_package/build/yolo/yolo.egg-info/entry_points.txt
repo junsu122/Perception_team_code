@@ -1,0 +1,5 @@
+[console_scripts]
+c_traffic = yolo.check_traffic:main
+check = yolo.check_3d:main
+cone = yolo.cone:main
+traffic = yolo.traffic:main

@@ -1,0 +1,2 @@
+Invoking command in '/home/junsu/yolo_python/build/yolo_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/junsu/yolo_python/src/yolo_msg -DCMAKE_INSTALL_PREFIX=/home/junsu/yolo_python/install/yolo_msg
+Invoked command in '/home/junsu/yolo_python/build/yolo_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/junsu/yolo_python/src/yolo_msg -DCMAKE_INSTALL_PREFIX=/home/junsu/yolo_python/install/yolo_msg
