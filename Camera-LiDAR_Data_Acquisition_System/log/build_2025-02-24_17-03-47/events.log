@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (darknet_ros_msgs) JobQueued: {'identifier': 'darknet_ros_msgs', 'dependencies': OrderedDict()}
+[0.000245] (fusion) JobQueued: {'identifier': 'fusion', 'dependencies': OrderedDict()}
+[0.000258] (darknet_ros) JobQueued: {'identifier': 'darknet_ros', 'dependencies': OrderedDict([('darknet_ros_msgs', '/home/junsu/1.cam/install/darknet_ros_msgs')])}
+[0.000593] (darknet_ros_msgs) JobStarted: {'identifier': 'darknet_ros_msgs'}
+[0.013605] (fusion) JobStarted: {'identifier': 'fusion'}
+[0.023058] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'cmake'}
+[0.023398] (darknet_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs'], 'cwd': '/home/junsu/1.cam/build/darknet_ros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'junsu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/local/lib:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/junsu'), ('OLDPWD', '/home/junsu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1442'), ('SYSTEMD_EXEC_PID', '1780'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9068'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'junsu'), ('JOURNAL_STREAM', '8:10985'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'junsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin'), ('SESSION_MANAGER', 'local/junsu:@/tmp/.ICE-unix/1752,unix/junsu:/tmp/.ICE-unix/1752'), ('INVOCATION_ID', 'ddec793625de488cb12c1bc78f39d353'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:02e9c337-1704-44ec-b1cc-046c852e2660'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junsu/1.cam/build/darknet_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099997] (-) TimerEvent: {}
+[0.200451] (-) TimerEvent: {}
+[0.300850] (-) TimerEvent: {}
+[0.401159] (-) TimerEvent: {}
+[0.501604] (-) TimerEvent: {}
+[0.603929] (-) TimerEvent: {}
+[0.704336] (-) TimerEvent: {}
+[0.804914] (-) TimerEvent: {}
+[0.905468] (-) TimerEvent: {}
+[1.005849] (-) TimerEvent: {}
+[1.106471] (-) TimerEvent: {}
+[1.163263] (darknet_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.206632] (-) TimerEvent: {}
+[1.307013] (-) TimerEvent: {}
+[1.407506] (-) TimerEvent: {}
+[1.507936] (-) TimerEvent: {}
+[1.608417] (-) TimerEvent: {}
+[1.710860] (-) TimerEvent: {}
+[1.811451] (-) TimerEvent: {}
+[1.844562] (darknet_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.870666] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.911556] (-) TimerEvent: {}
+[2.012029] (-) TimerEvent: {}
+[2.061152] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.068895] (darknet_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.069825] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.071990] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.078365] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.112139] (-) TimerEvent: {}
+[2.130567] (fusion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fusion', 'build', '--build-base', '/home/junsu/1.cam/build/fusion/build', 'install', '--record', '/home/junsu/1.cam/build/fusion/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/junsu/1.cam/src/fusion', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'junsu', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/local/lib:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/junsu', 'OLDPWD': '/home/junsu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1442', 'SYSTEMD_EXEC_PID': '1780', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9068', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'junsu', 'JOURNAL_STREAM': '8:10985', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junsu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin', 'SESSION_MANAGER': 'local/junsu:@/tmp/.ICE-unix/1752,unix/junsu:/tmp/.ICE-unix/1752', 'INVOCATION_ID': 'ddec793625de488cb12c1bc78f39d353', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:02e9c337-1704-44ec-b1cc-046c852e2660', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junsu/1.cam/build/fusion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junsu/1.cam/build/fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.199390] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.206810] (darknet_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.206972] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.207302] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.212978] (-) TimerEvent: {}
+[2.223212] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.313131] (-) TimerEvent: {}
+[2.383399] (fusion) StdoutLine: {'line': b'running egg_info\n'}
+[2.383589] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /opt/ros/humble/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.383696] (fusion) StdoutLine: {'line': b'writing ../../build/fusion/fusion.egg-info/PKG-INFO\n'}
+[2.384452] (fusion) StdoutLine: {'line': b'writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt\n'}
+[2.384590] (fusion) StdoutLine: {'line': b'writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt\n'}
+[2.384659] (fusion) StdoutLine: {'line': b'writing requirements to ../../build/fusion/fusion.egg-info/requires.txt\n'}
+[2.384726] (fusion) StdoutLine: {'line': b'writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt\n'}
+[2.386483] (fusion) StdoutLine: {'line': b"reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'\n"}
+[2.387610] (fusion) StdoutLine: {'line': b"writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'\n"}
+[2.387652] (fusion) StdoutLine: {'line': b'running build\n'}
+[2.387689] (fusion) StdoutLine: {'line': b'running build_py\n'}
+[2.389457] (fusion) StdoutLine: {'line': b'copying fusion/top_view.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion\n'}
+[2.389889] (fusion) StdoutLine: {'line': b'running install\n'}
+[2.390088] (fusion) StdoutLine: {'line': b'running install_lib\n'}
+[2.391391] (fusion) StdoutLine: {'line': b'copying /home/junsu/1.cam/build/fusion/build/lib/fusion/top_view.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion\n'}
+[2.392873] (fusion) StdoutLine: {'line': b'byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/top_view.py to top_view.cpython-310.pyc\n'}
+[2.395966] (fusion) StdoutLine: {'line': b'running install_data\n'}
+[2.396183] (fusion) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.398152] (fusion) StdoutLine: {'line': b"removing '/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.398340] (fusion) StdoutLine: {'line': b'Copying ../../build/fusion/fusion.egg-info to /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info\n'}
+[2.399451] (fusion) StdoutLine: {'line': b'running install_scripts\n'}
+[2.413210] (-) TimerEvent: {}
+[2.419445] (fusion) StdoutLine: {'line': b'Installing cap script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.419907] (fusion) StdoutLine: {'line': b'Installing double script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.419976] (fusion) StdoutLine: {'line': b'Installing mtest script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.420046] (fusion) StdoutLine: {'line': b'Installing roi script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.420148] (fusion) StdoutLine: {'line': b'Installing test script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.420201] (fusion) StdoutLine: {'line': b'Installing top script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.420260] (fusion) StdoutLine: {'line': b'Installing track script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.420698] (fusion) StdoutLine: {'line': b"writing list of installed files to '/home/junsu/1.cam/build/fusion/install.log'\n"}
+[2.450284] (fusion) CommandEnded: {'returncode': 0}
+[2.480645] (fusion) JobEnded: {'identifier': 'fusion', 'rc': 0}
+[2.513341] (-) TimerEvent: {}
+[2.560112] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[2.613527] (-) TimerEvent: {}
+[2.645554] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.654248] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.675904] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.702265] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.713660] (-) TimerEvent: {}
+[2.734787] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.810842] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.813737] (-) TimerEvent: {}
+[2.871712] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.890521] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.913799] (-) TimerEvent: {}
+[3.014109] (-) TimerEvent: {}
+[3.114376] (-) TimerEvent: {}
+[3.214625] (-) TimerEvent: {}
+[3.246027] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.280682] (darknet_ros_msgs) CommandEnded: {'returncode': -2}
+[3.283629] (darknet_ros_msgs) JobEnded: {'identifier': 'darknet_ros_msgs', 'rc': 'SIGINT'}
+[3.294414] (darknet_ros) JobSkipped: {'identifier': 'darknet_ros'}
+[3.294479] (-) EventReactorShutdown: {}

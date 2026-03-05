@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6f1e9edd8e7782a0b512.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "darknet_ros_msgs__py",
+					"jsonFile" : "directory-darknet_ros_msgs__py-15ceea65f0a3575b6448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/junsu/1.cam/build/darknet_ros_msgs/darknet_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "darknet_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_darknet_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_darknet_ros_msgs_egg-259aa633d4074cab1801.json",
+					"name" : "ament_cmake_python_build_darknet_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_darknet_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_darknet_ros_msgs-0f8f8f24b09da3000ef7.json",
+					"name" : "ament_cmake_python_copy_darknet_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs-763f07fff8412754d217.json",
+					"name" : "darknet_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__cpp-011b3ae2711fb740b62c.json",
+					"name" : "darknet_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "darknet_ros_msgs__py::@8606ac76534c7009cd7e",
+					"jsonFile" : "target-darknet_ros_msgs__py-69b5266531b38e395f05.json",
+					"name" : "darknet_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_generator_c-4d6094cc9a2ea6bbc622.json",
+					"name" : "darknet_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_generator_py-b4dbbd62f6f092f9368f.json",
+					"name" : "darknet_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_c-c309b6549fd0aa612bb5.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_c__pyext-06ed993a6894e377829e.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_cpp-3da0cfd54b5fe4d2e31e.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_fastrtps_c-6723fccb32d3cf0c6146.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext-29209d583cfbd1ed80d9.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp-bca509018141d65d1972.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_introspection_c-9e47e063aa514f2ad7c0.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext-a9ed3269341e835a8273.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs__rosidl_typesupport_introspection_cpp-eeeed9fb2aa0985f53e4.json",
+					"name" : "darknet_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet_ros_msgs_uninstall-3d91e7ed4fb89195cf85.json",
+					"name" : "darknet_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f9f635effd3ebc16af6d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/junsu/1.cam/build/darknet_ros_msgs",
+		"source" : "/home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

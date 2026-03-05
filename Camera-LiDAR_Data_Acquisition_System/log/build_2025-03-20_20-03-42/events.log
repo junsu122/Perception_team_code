@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (darknet_ros_msgs) JobQueued: {'identifier': 'darknet_ros_msgs', 'dependencies': OrderedDict()}
+[0.000246] (fusion) JobQueued: {'identifier': 'fusion', 'dependencies': OrderedDict()}
+[0.000258] (darknet_ros) JobQueued: {'identifier': 'darknet_ros', 'dependencies': OrderedDict([('darknet_ros_msgs', '/home/junsu/1.cam/install/darknet_ros_msgs')])}
+[0.000582] (darknet_ros_msgs) JobStarted: {'identifier': 'darknet_ros_msgs'}
+[0.004157] (fusion) JobStarted: {'identifier': 'fusion'}
+[0.012934] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'cmake'}
+[0.018163] (darknet_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs'], 'cwd': '/home/junsu/1.cam/build/darknet_ros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'junsu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/local/lib:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/junsu'), ('OLDPWD', '/home/junsu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1456'), ('SYSTEMD_EXEC_PID', '1794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2479'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'junsu'), ('JOURNAL_STREAM', '8:17455'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'junsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin'), ('SESSION_MANAGER', 'local/junsu:@/tmp/.ICE-unix/1767,unix/junsu:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '3210eb48613e4145a86e9e0de39b80c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e59ef19e-1261-4e28-97ad-dcbcde9f6abd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junsu/1.cam/build/darknet_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099907] (-) TimerEvent: {}
+[0.200215] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400804] (-) TimerEvent: {}
+[0.501201] (-) TimerEvent: {}
+[0.601483] (-) TimerEvent: {}
+[0.701795] (-) TimerEvent: {}
+[0.802034] (-) TimerEvent: {}
+[0.851887] (darknet_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.902114] (-) TimerEvent: {}
+[1.002395] (-) TimerEvent: {}
+[1.102725] (-) TimerEvent: {}
+[1.203048] (-) TimerEvent: {}
+[1.303407] (-) TimerEvent: {}
+[1.403775] (-) TimerEvent: {}
+[1.431714] (darknet_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.448991] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.503840] (-) TimerEvent: {}
+[1.548213] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.556930] (darknet_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.557760] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.558738] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.563251] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.603957] (-) TimerEvent: {}
+[1.683745] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.689521] (darknet_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.689704] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.690164] (darknet_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.694908] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.704066] (-) TimerEvent: {}
+[1.751717] (fusion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fusion', 'build', '--build-base', '/home/junsu/1.cam/build/fusion/build', 'install', '--record', '/home/junsu/1.cam/build/fusion/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/junsu/1.cam/src/fusion', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'junsu', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/local/lib:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/junsu', 'OLDPWD': '/home/junsu', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1456', 'SYSTEMD_EXEC_PID': '1794', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2479', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'junsu', 'JOURNAL_STREAM': '8:17455', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'junsu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin', 'SESSION_MANAGER': 'local/junsu:@/tmp/.ICE-unix/1767,unix/junsu:/tmp/.ICE-unix/1767', 'INVOCATION_ID': '3210eb48613e4145a86e9e0de39b80c3', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e59ef19e-1261-4e28-97ad-dcbcde9f6abd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/junsu/1.cam/build/fusion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/junsu/1.cam/build/fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.804174] (-) TimerEvent: {}
+[1.833878] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /opt/ros/humble/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.904257] (-) TimerEvent: {}
+[1.933699] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.976193] (fusion) StdoutLine: {'line': b'running egg_info\n'}
+[1.976545] (fusion) StdoutLine: {'line': b'writing ../../build/fusion/fusion.egg-info/PKG-INFO\n'}
+[1.977114] (fusion) StdoutLine: {'line': b'writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt\n'}
+[1.977238] (fusion) StdoutLine: {'line': b'writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt\n'}
+[1.977326] (fusion) StdoutLine: {'line': b'writing requirements to ../../build/fusion/fusion.egg-info/requires.txt\n'}
+[1.977402] (fusion) StdoutLine: {'line': b'writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt\n'}
+[1.978829] (fusion) StdoutLine: {'line': b"reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'\n"}
+[1.979677] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.979820] (fusion) StdoutLine: {'line': b"writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'\n"}
+[1.979898] (fusion) StdoutLine: {'line': b'running build\n'}
+[1.979945] (fusion) StdoutLine: {'line': b'running build_py\n'}
+[1.981230] (fusion) StdoutLine: {'line': b'copying fusion/cam_lidar_double_cap.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion\n'}
+[1.981644] (fusion) StdoutLine: {'line': b'running install\n'}
+[1.981867] (fusion) StdoutLine: {'line': b'running install_lib\n'}
+[1.982850] (fusion) StdoutLine: {'line': b'copying /home/junsu/1.cam/build/fusion/build/lib/fusion/cam_lidar_double_cap.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion\n'}
+[1.983770] (fusion) StdoutLine: {'line': b'byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/cam_lidar_double_cap.py to cam_lidar_double_cap.cpython-310.pyc\n'}
+[1.984823] (fusion) StdoutLine: {'line': b'running install_data\n'}
+[1.986068] (fusion) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.986358] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.987310] (fusion) StdoutLine: {'line': b"removing '/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.987493] (fusion) StdoutLine: {'line': b'Copying ../../build/fusion/fusion.egg-info to /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info\n'}
+[1.988402] (fusion) StdoutLine: {'line': b'running install_scripts\n'}
+[1.999127] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.002487] (fusion) StdoutLine: {'line': b'Installing cap script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.002890] (fusion) StdoutLine: {'line': b'Installing double script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.002960] (fusion) StdoutLine: {'line': b'Installing mtest script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.003023] (fusion) StdoutLine: {'line': b'Installing roi script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.003084] (fusion) StdoutLine: {'line': b'Installing test script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.003157] (fusion) StdoutLine: {'line': b'Installing top script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.003209] (fusion) StdoutLine: {'line': b'Installing track script to /home/junsu/1.cam/install/fusion/lib/fusion\n'}
+[2.003588] (fusion) StdoutLine: {'line': b"writing list of installed files to '/home/junsu/1.cam/build/fusion/install.log'\n"}
+[2.004313] (-) TimerEvent: {}
+[2.018334] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.025396] (fusion) CommandEnded: {'returncode': 0}
+[2.033284] (fusion) JobEnded: {'identifier': 'fusion', 'rc': 0}
+[2.042071] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.094278] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.104397] (-) TimerEvent: {}
+[2.131595] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.145212] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.204498] (-) TimerEvent: {}
+[2.304779] (-) TimerEvent: {}
+[2.405060] (-) TimerEvent: {}
+[2.451386] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.505181] (-) TimerEvent: {}
+[2.605483] (-) TimerEvent: {}
+[2.705794] (-) TimerEvent: {}
+[2.806115] (-) TimerEvent: {}
+[2.821759] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.906267] (-) TimerEvent: {}
+[2.961429] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.980925] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /opt/ros/humble/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.982637] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.006373] (-) TimerEvent: {}
+[3.006790] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.006927] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /opt/ros/humble/bin/python3\n'}
+[3.006977] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.007021] (darknet_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.024275] (darknet_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.098813] (darknet_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.106482] (-) TimerEvent: {}
+[3.127346] (darknet_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.137090] (darknet_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/junsu/1.cam/build/darknet_ros_msgs\n'}
+[3.144385] (darknet_ros_msgs) CommandEnded: {'returncode': 0}
+[3.145016] (darknet_ros_msgs) JobProgress: {'identifier': 'darknet_ros_msgs', 'progress': 'build'}
+[3.145609] (darknet_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/junsu/1.cam/build/darknet_ros_msgs', '--', '-j8', '-l8'], 'cwd': '/home/junsu/1.cam/build/darknet_ros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'junsu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/local/lib:/usr/local/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/junsu'), ('OLDPWD', '/home/junsu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1456'), ('SYSTEMD_EXEC_PID', '1794'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2479'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'junsu'), ('JOURNAL_STREAM', '8:17455'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'junsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/junsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/junsu/.local/bin'), ('SESSION_MANAGER', 'local/junsu:@/tmp/.ICE-unix/1767,unix/junsu:/tmp/.ICE-unix/1767'), ('INVOCATION_ID', '3210eb48613e4145a86e9e0de39b80c3'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e59ef19e-1261-4e28-97ad-dcbcde9f6abd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/junsu/1.cam/build/darknet_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/junsu/opencv-sources/opencv-4.10.0/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.175935] (darknet_ros_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.183411] (darknet_ros_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.190001] (darknet_ros_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_darknet_ros_msgs\n'}
+[3.206596] (-) TimerEvent: {}
+[3.306873] (-) TimerEvent: {}
+[3.407112] (-) TimerEvent: {}
+[3.424727] (darknet_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.425063] (darknet_ros_msgs) StdoutLine: {'line': b'creating darknet_ros_msgs.egg-info\n'}
+[3.425194] (darknet_ros_msgs) StdoutLine: {'line': b'writing darknet_ros_msgs.egg-info/PKG-INFO\n'}
+[3.425309] (darknet_ros_msgs) StdoutLine: {'line': b'writing dependency_links to darknet_ros_msgs.egg-info/dependency_links.txt\n'}
+[3.425413] (darknet_ros_msgs) StdoutLine: {'line': b'writing top-level names to darknet_ros_msgs.egg-info/top_level.txt\n'}
+[3.425666] (darknet_ros_msgs) StdoutLine: {'line': b"writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.427956] (darknet_ros_msgs) StdoutLine: {'line': b"reading manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.428321] (darknet_ros_msgs) StdoutLine: {'line': b"writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.451096] (darknet_ros_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_darknet_ros_msgs_egg\n'}
+[3.507193] (-) TimerEvent: {}
+[3.607440] (-) TimerEvent: {}
+[3.709225] (-) TimerEvent: {}
+[3.712352] (darknet_ros_msgs) StdoutLine: {'line': b'[  3%] Built target darknet_ros_msgs__cpp\n'}
+[3.721687] (darknet_ros_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.722524] (darknet_ros_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.723914] (darknet_ros_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.757905] (darknet_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c.o\x1b[0m\n'}
+[3.758160] (darknet_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/object_count__functions.c.o\x1b[0m\n'}
+[3.758340] (darknet_ros_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[3.758596] (darknet_ros_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/action/detail/check_for_objects__functions.c.o\x1b[0m\n'}
+[3.809316] (-) TimerEvent: {}
+[3.909611] (-) TimerEvent: {}
+[3.915109] (darknet_ros_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libdarknet_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.978520] (darknet_ros_msgs) StdoutLine: {'line': b'[ 18%] Built target darknet_ros_msgs__rosidl_generator_c\n'}
+[3.989099] (darknet_ros_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.989399] (darknet_ros_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.990041] (darknet_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.009686] (-) TimerEvent: {}
+[4.109997] (-) TimerEvent: {}
+[4.168817] (darknet_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.169043] (darknet_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.173870] (darknet_ros_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/object_count__type_support.cpp.o\x1b[0m\n'}
+[4.210158] (-) TimerEvent: {}
+[4.292680] (darknet_ros_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.310291] (-) TimerEvent: {}
+[4.319178] (darknet_ros_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.410733] (-) TimerEvent: {}
+[4.491179] (darknet_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.512692] (-) TimerEvent: {}
+[4.532759] (darknet_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.570578] (darknet_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/object_count__type_support.cpp.o\x1b[0m\n'}
+[4.609349] (darknet_ros_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o\x1b[0m\n'}
+[4.612797] (-) TimerEvent: {}
+[4.678436] (darknet_ros_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[4.686855] (darknet_ros_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.707987] (darknet_ros_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o\x1b[0m\n'}
+[4.712930] (-) TimerEvent: {}
+[4.720031] (darknet_ros_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/object_count__type_support_c.cpp.o\x1b[0m\n'}
+[4.729633] (darknet_ros_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o\x1b[0m\n'}
+[4.752318] (darknet_ros_msgs) StdoutLine: {'line': b'[ 49%] Built target darknet_ros_msgs__rosidl_typesupport_c\n'}
+[4.762103] (darknet_ros_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[4.764532] (darknet_ros_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c.o\x1b[0m\n'}
+[4.806065] (darknet_ros_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/action/detail/check_for_objects__type_support_c.cpp.o\x1b[0m\n'}
+[4.814707] (-) TimerEvent: {}
+[4.817474] (darknet_ros_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/object_count__type_support.c.o\x1b[0m\n'}
+[4.867808] (darknet_ros_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/action/detail/check_for_objects__type_support.c.o\x1b[0m\n'}
+[4.874042] (darknet_ros_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.912797] (darknet_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.914797] (-) TimerEvent: {}
+[4.941913] (darknet_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.004784] (darknet_ros_msgs) StdoutLine: {'line': b'[ 63%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[5.013444] (darknet_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/object_count__type_support.cpp.o\x1b[0m\n'}
+[5.015695] (-) TimerEvent: {}
+[5.107598] (darknet_ros_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/action/detail/dds_fastrtps/check_for_objects__type_support.cpp.o\x1b[0m\n'}
+[5.115821] (-) TimerEvent: {}
+[5.120238] (darknet_ros_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/object_count__type_support.cpp.o\x1b[0m\n'}
+[5.169253] (darknet_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp.o\x1b[0m\n'}
+[5.215935] (-) TimerEvent: {}
+[5.316390] (-) TimerEvent: {}
+[5.335212] (darknet_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.350139] (darknet_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.408885] (darknet_ros_msgs) StdoutLine: {'line': b'[ 74%] Built target darknet_ros_msgs__rosidl_typesupport_cpp\n'}
+[5.416697] (-) TimerEvent: {}
+[5.502707] (darknet_ros_msgs) StdoutLine: {'line': b'[ 74%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.516798] (-) TimerEvent: {}
+[5.617124] (-) TimerEvent: {}
+[5.701719] (darknet_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.717240] (-) TimerEvent: {}
+[5.766678] (darknet_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.783146] (darknet_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.817357] (-) TimerEvent: {}
+[5.842979] (darknet_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.856910] (darknet_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target darknet_ros_msgs\n'}
+[5.872346] (darknet_ros_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.917445] (-) TimerEvent: {}
+[6.017708] (-) TimerEvent: {}
+[6.117946] (-) TimerEvent: {}
+[6.218169] (-) TimerEvent: {}
+[6.318427] (-) TimerEvent: {}
+[6.418617] (-) TimerEvent: {}
+[6.518870] (-) TimerEvent: {}
+[6.619111] (-) TimerEvent: {}
+[6.671414] (darknet_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target darknet_ros_msgs__py\n'}
+[6.687480] (darknet_ros_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[6.687664] (darknet_ros_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_object_count_s.c.o\x1b[0m\n'}
+[6.688472] (darknet_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_boxes_s.c.o\x1b[0m\n'}
+[6.689361] (darknet_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/action/_check_for_objects_s.c.o\x1b[0m\n'}
+[6.719254] (-) TimerEvent: {}
+[6.819534] (-) TimerEvent: {}
+[6.873420] (darknet_ros_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/darknet_ros_msgs/libdarknet_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.911840] (darknet_ros_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/all] Interrupt\n'}
+[6.912146] (darknet_ros_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[6.913035] (darknet_ros_msgs) CommandEnded: {'returncode': -2}
+[6.917586] (darknet_ros_msgs) JobEnded: {'identifier': 'darknet_ros_msgs', 'rc': 'SIGINT'}
+[6.919617] (-) TimerEvent: {}
+[6.927938] (darknet_ros) JobSkipped: {'identifier': 'darknet_ros'}
+[6.927969] (-) EventReactorShutdown: {}

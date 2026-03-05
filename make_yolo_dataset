@@ -1,0 +1,14 @@
+pip install ultralytics
+
+pip install labelme
+pip install labelme2yolov8
+
+python3 -m labelme2yolov8 --json_dir {본인 img파일 및 json파일 위치} --output_format yolov8
+
+yolo task=detect mode=train model=yolov8n.pt data=dataset.yaml epochs=50 imgsz=640
+
+yolo task=segment mode=train model=yolov8n-seg.pt data={본인 yaml파일 위치} epochs=1000 imgsz=320 device=cpu
+
+yolo task=detect mode=predict model=경로/your_model.pt source=경로/테스트할_이미지_또는_폴더
+
+yolo task=detect mode=predict model=/home/junsu/Yolo cone tracking test/yolo/yolov8/runs/detect/train/weights/last.pt source=경로/테스트할_이미지_또는_폴더

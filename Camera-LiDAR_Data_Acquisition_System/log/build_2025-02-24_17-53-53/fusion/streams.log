@@ -1,0 +1,30 @@
+[0.644s] Invoking command in '/home/junsu/1.cam/src/fusion': PYTHONPATH=/home/junsu/1.cam/build/fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fusion build --build-base /home/junsu/1.cam/build/fusion/build install --record /home/junsu/1.cam/build/fusion/install.log --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.881s] writing ../../build/fusion/fusion.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt
+[0.882s] writing requirements to ../../build/fusion/fusion.egg-info/requires.txt
+[0.882s] writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt
+[0.883s] reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+[0.884s] writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.884s] copying fusion/top_view.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+[0.885s] running install
+[0.885s] running install_lib
+[0.886s] copying /home/junsu/1.cam/build/fusion/build/lib/fusion/top_view.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+[0.886s] byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/top_view.py to top_view.cpython-310.pyc
+[0.887s] running install_data
+[0.887s] running install_egg_info
+[0.888s] removing '/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info' (and everything under it)
+[0.888s] Copying ../../build/fusion/fusion.egg-info to /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info
+[0.889s] running install_scripts
+[0.907s] Installing cap script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing double script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing mtest script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing roi script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing test script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing top script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.907s] Installing track script to /home/junsu/1.cam/install/fusion/lib/fusion
+[0.908s] writing list of installed files to '/home/junsu/1.cam/build/fusion/install.log'
+[0.936s] Invoked command in '/home/junsu/1.cam/src/fusion' returned '0': PYTHONPATH=/home/junsu/1.cam/build/fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fusion build --build-base /home/junsu/1.cam/build/fusion/build install --record /home/junsu/1.cam/build/fusion/install.log --single-version-externally-managed install_data

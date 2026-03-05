@@ -1,0 +1,9 @@
+[console_scripts]
+cap = fusion.capture:main
+double = fusion.cam_lidar_double_cap:main
+mtest = fusion.matrix_test:main
+roi = fusion.roi_pls:main
+test = fusion.testsub:main
+top = fusion.top_view:main
+track = fusion.lidar_track:main
+

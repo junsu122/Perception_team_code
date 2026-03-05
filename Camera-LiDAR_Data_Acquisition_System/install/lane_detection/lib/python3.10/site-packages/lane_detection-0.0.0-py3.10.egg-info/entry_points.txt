@@ -1,0 +1,3 @@
+[console_scripts]
+birdview = bev_node:main
+camera2yolo = camera2yolo:main

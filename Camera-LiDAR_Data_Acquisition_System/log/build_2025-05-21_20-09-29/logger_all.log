@@ -1,0 +1,663 @@
+[0.279s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lane_detection'][0m
+[0.279s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lane_detection'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fdf54e4a2c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdf54f4f400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdf54f4f400>>, mixin_verb=('build',))[0m
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/junsu/1.cam'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'ignore'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'ignore_ament_install'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['colcon_pkg']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'colcon_pkg'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['colcon_meta']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'colcon_meta'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['ros']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'ros'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['cmake', 'python']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'cmake'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'python'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extensions ['python_setup_py']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20) by extension 'python_setup_py'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['colcon_meta']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'colcon_meta'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['ros']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['cmake', 'python']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'cmake'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'python'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extensions ['python_setup_py']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/C) by extension 'python_setup_py'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'ros'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['cmake', 'python']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'cmake'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'python'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extensions ['python_setup_py']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/L) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'ros'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['cmake', 'python']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'cmake'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'python'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extensions ['python_setup_py']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3.20/R) by extension 'python_setup_py'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'colcon_meta'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'ros'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['cmake', 'python']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'cmake'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'python'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extensions ['python_setup_py']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(captured_images) by extension 'python_setup_py'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'ignore_ament_install'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['colcon_pkg']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'colcon_pkg'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['colcon_meta']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'colcon_meta'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['ros']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'ros'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['cmake', 'python']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'cmake'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'python'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extensions ['python_setup_py']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros) by extension 'python_setup_py'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'ignore'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'ignore_ament_install'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['colcon_pkg']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'colcon_pkg'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['colcon_meta']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'colcon_meta'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['ros']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'ros'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['cmake', 'python']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'cmake'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'python'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extensions ['python_setup_py']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet) by extension 'python_setup_py'
+[0.421s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'ignore'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'ignore_ament_install'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['colcon_pkg']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'colcon_pkg'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['colcon_meta']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'colcon_meta'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['ros']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'ros'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['cmake', 'python']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'cmake'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'python'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extensions ['python_setup_py']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty) by extension 'python_setup_py'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'ignore'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'ignore_ament_install'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['colcon_pkg']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'colcon_pkg'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['colcon_meta']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'colcon_meta'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['ros']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'ros'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['cmake', 'python']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'cmake'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'python'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extensions ['python_setup_py']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads) by extension 'python_setup_py'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ignore'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ignore_ament_install'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['colcon_pkg']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'colcon_pkg'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['colcon_meta']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'colcon_meta'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['ros']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'ros'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['cmake', 'python']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'cmake'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'python'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extensions ['python_setup_py']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/bin) by extension 'python_setup_py'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ignore'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ignore_ament_install'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['colcon_pkg']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'colcon_pkg'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['colcon_meta']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'colcon_meta'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['ros']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'ros'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['cmake', 'python']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'cmake'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'python'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extensions ['python_setup_py']
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/include) by extension 'python_setup_py'
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ignore'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ignore_ament_install'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['colcon_pkg']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'colcon_pkg'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['colcon_meta']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'colcon_meta'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['ros']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'ros'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['cmake', 'python']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'cmake'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'python'
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extensions ['python_setup_py']
+[0.431s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/pthreads/lib) by extension 'python_setup_py'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'ignore'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'ignore_ament_install'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['colcon_pkg']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'colcon_pkg'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['colcon_meta']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'colcon_meta'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['ros']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'ros'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['cmake', 'python']
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'cmake'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'python'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extensions ['python_setup_py']
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb) by extension 'python_setup_py'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'ignore'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'ignore_ament_install'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['colcon_pkg']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'colcon_pkg'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['colcon_meta']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'colcon_meta'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['ros']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'ros'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['cmake', 'python']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'cmake'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'python'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extensions ['python_setup_py']
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/3rdparty/stb/include) by extension 'python_setup_py'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'ignore'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'ignore_ament_install'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['colcon_pkg']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'colcon_pkg'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['colcon_meta']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'colcon_meta'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['ros']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'ros'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['cmake', 'python']
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'cmake'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'python'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extensions ['python_setup_py']
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build) by extension 'python_setup_py'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'ignore'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'ignore_ament_install'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['colcon_pkg']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'colcon_pkg'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['colcon_meta']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'colcon_meta'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['ros']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'ros'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['cmake', 'python']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'cmake'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'python'
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extensions ['python_setup_py']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet) by extension 'python_setup_py'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'ignore'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'ignore_ament_install'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['colcon_pkg']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'colcon_pkg'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['colcon_meta']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'colcon_meta'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['ros']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'ros'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['cmake', 'python']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'cmake'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'python'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extensions ['python_setup_py']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64) by extension 'python_setup_py'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ignore'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ignore_ament_install'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['colcon_pkg']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'colcon_pkg'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['colcon_meta']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'colcon_meta'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['ros']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'ros'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['cmake', 'python']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'cmake'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'python'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extensions ['python_setup_py']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/backup) by extension 'python_setup_py'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ignore'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ignore_ament_install'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['colcon_pkg']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'colcon_pkg'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['colcon_meta']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'colcon_meta'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['ros']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'ros'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['cmake', 'python']
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'cmake'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'python'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extensions ['python_setup_py']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/cfg) by extension 'python_setup_py'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'ignore'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'ignore_ament_install'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['colcon_pkg']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'colcon_pkg'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['colcon_meta']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'colcon_meta'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['ros']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'ros'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['cmake', 'python']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'cmake'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'python'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extensions ['python_setup_py']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data) by extension 'python_setup_py'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ignore'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ignore_ament_install'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['colcon_pkg']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'colcon_pkg'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['colcon_meta']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'colcon_meta'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['ros']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'ros'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['cmake', 'python']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'cmake'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'python'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extensions ['python_setup_py']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/labels) by extension 'python_setup_py'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ignore'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ignore_ament_install'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['colcon_pkg']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'colcon_pkg'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['colcon_meta']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'colcon_meta'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['ros']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'ros'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['cmake', 'python']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'cmake'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'python'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extensions ['python_setup_py']
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/data/voc) by extension 'python_setup_py'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'ignore'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'ignore_ament_install'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['colcon_pkg']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'colcon_pkg'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['colcon_meta']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'colcon_meta'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['ros']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'ros'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['cmake', 'python']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'cmake'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'python'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extensions ['python_setup_py']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/build/darknet/x64/results) by extension 'python_setup_py'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'ignore'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'ignore_ament_install'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['colcon_pkg']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'colcon_pkg'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['colcon_meta']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'colcon_meta'
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['ros']
+[0.452s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'ros'
+[0.453s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['cmake', 'python']
+[0.453s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'cmake'
+[0.453s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'python'
+[0.453s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extensions ['python_setup_py']
+[0.453s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg) by extension 'python_setup_py'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'ignore'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'ignore_ament_install'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['colcon_pkg']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'colcon_pkg'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['colcon_meta']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'colcon_meta'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['ros']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'ros'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['cmake', 'python']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'cmake'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'python'
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extensions ['python_setup_py']
+[0.454s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cfg/yolov1) by extension 'python_setup_py'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'ignore'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'ignore_ament_install'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['colcon_pkg']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'colcon_pkg'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['colcon_meta']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'colcon_meta'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['ros']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'ros'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['cmake', 'python']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'cmake'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'python'
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extensions ['python_setup_py']
+[0.455s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake) by extension 'python_setup_py'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'ignore'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'ignore_ament_install'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['colcon_pkg']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'colcon_pkg'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['colcon_meta']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'colcon_meta'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['ros']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'ros'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['cmake', 'python']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'cmake'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'python'
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extensions ['python_setup_py']
+[0.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/cmake/Modules) by extension 'python_setup_py'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'ignore'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'ignore_ament_install'
+[0.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['colcon_pkg']
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'colcon_pkg'
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['colcon_meta']
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'colcon_meta'
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['ros']
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'ros'
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['cmake', 'python']
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'cmake'
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'python'
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extensions ['python_setup_py']
+[0.458s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data) by extension 'python_setup_py'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'ignore'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'ignore_ament_install'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['colcon_pkg']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'colcon_pkg'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['colcon_meta']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'colcon_meta'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['ros']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'ros'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['cmake', 'python']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'cmake'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'python'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extensions ['python_setup_py']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/data/labels) by extension 'python_setup_py'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'ignore'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'ignore_ament_install'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['colcon_pkg']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'colcon_pkg'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['colcon_meta']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'colcon_meta'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['ros']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'ros'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['cmake', 'python']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'cmake'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'python'
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extensions ['python_setup_py']
+[0.463s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/include) by extension 'python_setup_py'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'ignore'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'ignore_ament_install'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['colcon_pkg']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'colcon_pkg'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['colcon_meta']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'colcon_meta'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['ros']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'ros'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['cmake', 'python']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'cmake'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'python'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extensions ['python_setup_py']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/results) by extension 'python_setup_py'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'ignore'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'ignore_ament_install'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['colcon_pkg']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'colcon_pkg'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['colcon_meta']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'colcon_meta'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['ros']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'ros'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['cmake', 'python']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'cmake'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'python'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extensions ['python_setup_py']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts) by extension 'python_setup_py'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'ignore'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'ignore_ament_install'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['colcon_pkg']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'colcon_pkg'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['colcon_meta']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'colcon_meta'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['ros']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'ros'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['cmake', 'python']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'cmake'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'python'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extensions ['python_setup_py']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/log_parser) by extension 'python_setup_py'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'ignore'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'ignore_ament_install'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['colcon_pkg']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'colcon_pkg'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['colcon_meta']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'colcon_meta'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['ros']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'ros'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['cmake', 'python']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'cmake'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'python'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extensions ['python_setup_py']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/scripts/windows) by extension 'python_setup_py'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'ignore'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'ignore_ament_install'
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['colcon_pkg']
+[0.474s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'colcon_pkg'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['colcon_meta']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'colcon_meta'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['ros']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'ros'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['cmake', 'python']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'cmake'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'python'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extensions ['python_setup_py']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src) by extension 'python_setup_py'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'ignore'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'ignore_ament_install'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['colcon_pkg']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'colcon_pkg'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['colcon_meta']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'colcon_meta'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['ros']
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'ros'
+[0.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['cmake', 'python']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'cmake'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'python'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extensions ['python_setup_py']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet/src/csharp) by extension 'python_setup_py'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extension 'ignore'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extension 'ignore_ament_install'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extensions ['colcon_pkg']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extension 'colcon_pkg'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extensions ['colcon_meta']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extension 'colcon_meta'
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extensions ['ros']
+[0.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros) by extension 'ros'
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/darknet_ros/darknet_ros' with type 'ros.ament_cmake' and name 'darknet_ros'[0m
+[0.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extension 'ignore'
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extension 'ignore_ament_install'
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extensions ['colcon_pkg']
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extension 'colcon_pkg'
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extensions ['colcon_meta']
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extension 'colcon_meta'
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extensions ['ros']
+[0.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/darknet_ros/darknet_ros_msgs) by extension 'ros'
+[0.491s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/darknet_ros/darknet_ros_msgs' with type 'ros.ament_cmake' and name 'darknet_ros_msgs'[0m
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extension 'ignore'
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extension 'ignore_ament_install'
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extensions ['colcon_pkg']
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extension 'colcon_pkg'
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extensions ['colcon_meta']
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extension 'colcon_meta'
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extensions ['ros']
+[0.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fusion) by extension 'ros'
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fusion' with type 'ros.ament_python' and name 'fusion'[0m
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extension 'ignore'
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extension 'ignore_ament_install'
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extensions ['colcon_pkg']
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extension 'colcon_pkg'
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extensions ['colcon_meta']
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extension 'colcon_meta'
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extensions ['ros']
+[0.493s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lane_detection) by extension 'ros'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/lane_detection' with type 'ros.ament_python' and name 'lane_detection'[0m
+[0.494s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.494s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.494s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.494s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.494s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.527s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'darknet_ros_msgs' in 'src/darknet_ros/darknet_ros_msgs'
+[0.527s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'fusion' in 'src/fusion'
+[0.527s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'darknet_ros' in 'src/darknet_ros/darknet_ros'
+[0.528s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.528s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.537s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 227 installed packages in /opt/ros/humble[0m
+[0.538s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_args' from command line to 'None'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_target' from command line to 'None'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lane_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'lane_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/junsu/1.cam/build/lane_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/junsu/1.cam/install/lane_detection', 'merge_install': False, 'path': '/home/junsu/1.cam/src/lane_detection', 'symlink_install': False, 'test_result_base': None}[0m
+[0.559s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.560s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.560s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/junsu/1.cam/src/lane_detection' with build type 'ament_python'
+[0.560s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lane_detection', 'ament_prefix_path')
+[0.571s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.571s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/ament_prefix_path.ps1'
+[0.573s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/ament_prefix_path.dsv'
+[0.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/ament_prefix_path.sh'
+[0.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.777s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/junsu/1.cam/src/lane_detection'
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.712s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/junsu/1.cam/src/lane_detection': PYTHONPATH=/home/junsu/1.cam/build/lane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_detection build --build-base /home/junsu/1.cam/build/lane_detection/build install --record /home/junsu/1.cam/build/lane_detection/install.log --single-version-externally-managed install_data[0m
+[2.065s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/junsu/1.cam/src/lane_detection' returned '0': PYTHONPATH=/home/junsu/1.cam/build/lane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_detection build --build-base /home/junsu/1.cam/build/lane_detection/build install --record /home/junsu/1.cam/build/lane_detection/install.log --single-version-externally-managed install_data[0m
+[2.077s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection' for CMake module files
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection' for CMake config files
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection/lib'
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection/bin'
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection/lib/pkgconfig/lane_detection.pc'
+[2.079s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lane_detection', 'pythonpath')
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/pythonpath.ps1'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/pythonpath.dsv'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/junsu/1.cam/install/lane_detection/share/lane_detection/hook/pythonpath.sh'
+[2.080s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/junsu/1.cam/install/lane_detection/bin'
+[2.080s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(lane_detection)
+[2.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/junsu/1.cam/install/lane_detection/share/lane_detection/package.ps1'
+[2.082s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/junsu/1.cam/install/lane_detection/share/lane_detection/package.dsv'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/junsu/1.cam/install/lane_detection/share/lane_detection/package.sh'
+[2.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/junsu/1.cam/install/lane_detection/share/lane_detection/package.bash'
+[2.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/junsu/1.cam/install/lane_detection/share/lane_detection/package.zsh'
+[2.089s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/junsu/1.cam/install/lane_detection/share/colcon-core/packages/lane_detection)
+[2.089s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.090s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.090s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.090s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.111s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.111s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.111s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.310s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/junsu/1.cam/install/local_setup.ps1'
+[2.315s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/junsu/1.cam/install/_local_setup_util_ps1.py'
+[2.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/junsu/1.cam/install/setup.ps1'
+[2.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/junsu/1.cam/install/local_setup.sh'
+[2.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/junsu/1.cam/install/_local_setup_util_sh.py'
+[2.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/junsu/1.cam/install/setup.sh'
+[2.327s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/junsu/1.cam/install/local_setup.bash'
+[2.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/junsu/1.cam/install/setup.bash'
+[2.330s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/junsu/1.cam/install/local_setup.zsh'
+[2.331s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/junsu/1.cam/install/setup.zsh'

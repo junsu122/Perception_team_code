@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from darknet_ros_msgs/msg/BoundingBoxes.msg
+// generated code does not contain a copyright notice
+
+#include "darknet_ros_msgs/msg/BoundingBox.idl"
+#include "std_msgs/msg/Header.idl"
+
+module darknet_ros_msgs {
+  module msg {
+    struct BoundingBoxes {
+      std_msgs::msg::Header header;
+
+      std_msgs::msg::Header image_header;
+
+      sequence<darknet_ros_msgs::msg::BoundingBox> bounding_boxes;
+    };
+  };
+};

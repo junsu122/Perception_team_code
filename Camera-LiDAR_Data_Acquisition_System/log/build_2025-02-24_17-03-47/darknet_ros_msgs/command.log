@@ -1,0 +1,2 @@
+Invoking command in '/home/junsu/1.cam/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs
+Invoked command in '/home/junsu/1.cam/build/darknet_ros_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs

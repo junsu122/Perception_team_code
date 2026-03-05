@@ -1,0 +1,4 @@
+/home/junsu/1.cam/build/darknet_ros_msgs/rosidl_adapter/darknet_ros_msgs:msg/BoundingBox.idl
+/home/junsu/1.cam/build/darknet_ros_msgs/rosidl_adapter/darknet_ros_msgs:msg/BoundingBoxes.idl
+/home/junsu/1.cam/build/darknet_ros_msgs/rosidl_adapter/darknet_ros_msgs:msg/ObjectCount.idl
+/home/junsu/1.cam/build/darknet_ros_msgs/rosidl_adapter/darknet_ros_msgs:action/CheckForObjects.idl

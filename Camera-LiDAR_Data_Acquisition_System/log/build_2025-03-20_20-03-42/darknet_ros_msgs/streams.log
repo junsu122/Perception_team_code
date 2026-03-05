@@ -1,0 +1,111 @@
+[0.019s] Invoking command in '/home/junsu/1.cam/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs
+[0.851s] -- The C compiler identification is GNU 11.4.0
+[1.431s] -- The CXX compiler identification is GNU 11.4.0
+[1.448s] -- Detecting C compiler ABI info
+[1.548s] -- Detecting C compiler ABI info - done
+[1.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.557s] -- Detecting C compile features
+[1.558s] -- Detecting C compile features - done
+[1.563s] -- Detecting CXX compiler ABI info
+[1.683s] -- Detecting CXX compiler ABI info - done
+[1.689s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.689s] -- Detecting CXX compile features
+[1.690s] -- Detecting CXX compile features - done
+[1.694s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.833s] -- Found Python3: /opt/ros/humble/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.933s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.979s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.986s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.999s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.094s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.131s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.145s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.451s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.980s] -- Found PythonInterp: /opt/ros/humble/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.982s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.006s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.006s] -- Using PYTHON_EXECUTABLE: /opt/ros/humble/bin/python3
+[3.006s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.006s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.024s] -- Found PythonExtra: .so  
+[3.098s] -- Configuring done
+[3.127s] -- Generating done
+[3.137s] -- Build files have been written to: /home/junsu/1.cam/build/darknet_ros_msgs
+[3.144s] Invoked command in '/home/junsu/1.cam/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/junsu/1.cam/src/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/junsu/1.cam/install/darknet_ros_msgs
+[3.146s] Invoking command in '/home/junsu/1.cam/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/junsu/1.cam/build/darknet_ros_msgs -- -j8 -l8
+[3.175s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.183s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.190s] [  3%] Built target ament_cmake_python_copy_darknet_ros_msgs
+[3.424s] running egg_info
+[3.425s] creating darknet_ros_msgs.egg-info
+[3.425s] writing darknet_ros_msgs.egg-info/PKG-INFO
+[3.425s] writing dependency_links to darknet_ros_msgs.egg-info/dependency_links.txt
+[3.425s] writing top-level names to darknet_ros_msgs.egg-info/top_level.txt
+[3.425s] writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[3.427s] reading manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[3.428s] writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[3.451s] [  3%] Built target ament_cmake_python_build_darknet_ros_msgs_egg
+[3.712s] [  3%] Built target darknet_ros_msgs__cpp
+[3.721s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.722s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.723s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.757s] [ 14%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c.o[0m
+[3.758s] [ 14%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/object_count__functions.c.o[0m
+[3.758s] [ 14%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/msg/detail/bounding_box__functions.c.o[0m
+[3.758s] [ 16%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/darknet_ros_msgs/action/detail/check_for_objects__functions.c.o[0m
+[3.915s] [ 18%] [32m[1mLinking C shared library libdarknet_ros_msgs__rosidl_generator_c.so[0m
+[3.978s] [ 18%] Built target darknet_ros_msgs__rosidl_generator_c
+[3.989s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.989s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.990s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.168s] [ 25%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o[0m
+[4.169s] [ 27%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[4.173s] [ 29%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/msg/object_count__type_support.cpp.o[0m
+[4.292s] [ 30%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp.o[0m
+[4.319s] [ 32%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[4.491s] [ 34%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_box__type_support.cpp.o[0m
+[4.532s] [ 36%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[4.570s] [ 38%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/msg/object_count__type_support.cpp.o[0m
+[4.609s] [ 40%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o[0m
+[4.678s] [ 41%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[4.686s] [ 43%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_c.so[0m
+[4.708s] [ 45%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[4.720s] [ 47%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/msg/detail/object_count__type_support_c.cpp.o[0m
+[4.729s] [ 49%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/darknet_ros_msgs/action/check_for_objects__type_support.cpp.o[0m
+[4.753s] [ 49%] Built target darknet_ros_msgs__rosidl_typesupport_c
+[4.762s] [ 50%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_box__type_support.c.o[0m
+[4.764s] [ 52%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c.o[0m
+[4.806s] [ 54%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/darknet_ros_msgs/action/detail/check_for_objects__type_support_c.cpp.o[0m
+[4.817s] [ 56%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/msg/detail/object_count__type_support.c.o[0m
+[4.867s] [ 58%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/darknet_ros_msgs/action/detail/check_for_objects__type_support.c.o[0m
+[4.874s] [ 60%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[4.912s] [ 61%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[4.941s] [ 63%] [32m[1mLinking C shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.004s] [ 63%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c
+[5.013s] [ 65%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/msg/detail/dds_fastrtps/object_count__type_support.cpp.o[0m
+[5.107s] [ 67%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/darknet_ros_msgs/action/detail/dds_fastrtps/check_for_objects__type_support.cpp.o[0m
+[5.120s] [ 69%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/msg/detail/object_count__type_support.cpp.o[0m
+[5.169s] [ 70%] [32mBuilding CXX object CMakeFiles/darknet_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp.o[0m
+[5.335s] [ 72%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_cpp.so[0m
+[5.350s] [ 74%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.408s] [ 74%] Built target darknet_ros_msgs__rosidl_typesupport_cpp
+[5.502s] [ 74%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c
+[5.701s] [ 76%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.766s] [ 76%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[5.783s] [ 78%] [32m[1mLinking CXX shared library libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.842s] [ 78%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp
+[5.856s] [ 78%] Built target darknet_ros_msgs
+[5.872s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.671s] [ 80%] Built target darknet_ros_msgs__py
+[6.687s] [ 83%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_box_s.c.o[0m
+[6.687s] [ 83%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_object_count_s.c.o[0m
+[6.688s] [ 85%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/msg/_bounding_boxes_s.c.o[0m
+[6.689s] [ 87%] [32mBuilding C object CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/darknet_ros_msgs/action/_check_for_objects_s.c.o[0m
+[6.873s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/darknet_ros_msgs/libdarknet_ros_msgs__rosidl_generator_py.so[0m
+[6.912s] gmake[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/darknet_ros_msgs__rosidl_generator_py.dir/all] Interrupt
+[6.912s] gmake: *** [Makefile:146: all] Interrupt
+[6.913s] Invoked command in '/home/junsu/1.cam/build/darknet_ros_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/junsu/1.cam/build/darknet_ros_msgs -- -j8 -l8

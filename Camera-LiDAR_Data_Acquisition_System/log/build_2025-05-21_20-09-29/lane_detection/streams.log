@@ -1,0 +1,39 @@
+[1.151s] Invoking command in '/home/junsu/1.cam/src/lane_detection': PYTHONPATH=/home/junsu/1.cam/build/lane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_detection build --build-base /home/junsu/1.cam/build/lane_detection/build install --record /home/junsu/1.cam/build/lane_detection/install.log --single-version-externally-managed install_data
+[1.273s] /home/junsu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.273s]   warnings.warn(msg)
+[1.365s] running egg_info
+[1.382s] creating ../../build/lane_detection/lane_detection.egg-info
+[1.382s] writing ../../build/lane_detection/lane_detection.egg-info/PKG-INFO
+[1.384s] writing dependency_links to ../../build/lane_detection/lane_detection.egg-info/dependency_links.txt
+[1.384s] writing entry points to ../../build/lane_detection/lane_detection.egg-info/entry_points.txt
+[1.384s] writing requirements to ../../build/lane_detection/lane_detection.egg-info/requires.txt
+[1.384s] writing top-level names to ../../build/lane_detection/lane_detection.egg-info/top_level.txt
+[1.384s] writing manifest file '../../build/lane_detection/lane_detection.egg-info/SOURCES.txt'
+[1.414s] reading manifest file '../../build/lane_detection/lane_detection.egg-info/SOURCES.txt'
+[1.416s] writing manifest file '../../build/lane_detection/lane_detection.egg-info/SOURCES.txt'
+[1.416s] running build
+[1.416s] running build_py
+[1.416s] creating /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection
+[1.416s] copying lane_detection/bev_node.py -> /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection
+[1.416s] copying lane_detection/camera2yolo.py -> /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection
+[1.416s] copying lane_detection/__init__.py -> /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection
+[1.417s] running install
+[1.420s] running install_lib
+[1.433s] creating /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection
+[1.433s] copying /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection/bev_node.py -> /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection
+[1.434s] copying /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection/camera2yolo.py -> /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection
+[1.434s] copying /home/junsu/1.cam/build/lane_detection/build/lib/lane_detection/__init__.py -> /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection
+[1.434s] byte-compiling /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection/bev_node.py to bev_node.cpython-310.pyc
+[1.435s] byte-compiling /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection/camera2yolo.py to camera2yolo.cpython-310.pyc
+[1.436s] byte-compiling /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection/__init__.py to __init__.cpython-310.pyc
+[1.436s] running install_data
+[1.436s] creating /home/junsu/1.cam/install/lane_detection/share/ament_index/resource_index/packages
+[1.436s] copying resource/lane_detection -> /home/junsu/1.cam/install/lane_detection/share/ament_index/resource_index/packages
+[1.437s] copying package.xml -> /home/junsu/1.cam/install/lane_detection/share/lane_detection
+[1.437s] running install_egg_info
+[1.455s] Copying ../../build/lane_detection/lane_detection.egg-info to /home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages/lane_detection-0.0.0-py3.10.egg-info
+[1.455s] running install_scripts
+[1.486s] Installing birdview script to /home/junsu/1.cam/install/lane_detection/lib/lane_detection
+[1.486s] Installing camera2yolo script to /home/junsu/1.cam/install/lane_detection/lib/lane_detection
+[1.486s] writing list of installed files to '/home/junsu/1.cam/build/lane_detection/install.log'
+[1.504s] Invoked command in '/home/junsu/1.cam/src/lane_detection' returned '0': PYTHONPATH=/home/junsu/1.cam/build/lane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/junsu/1.cam/install/lane_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lane_detection build --build-base /home/junsu/1.cam/build/lane_detection/build install --record /home/junsu/1.cam/build/lane_detection/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+setup.py
+darknet_ros_msgs/__init__.py
+darknet_ros_msgs.egg-info/PKG-INFO
+darknet_ros_msgs.egg-info/SOURCES.txt
+darknet_ros_msgs.egg-info/dependency_links.txt
+darknet_ros_msgs.egg-info/top_level.txt

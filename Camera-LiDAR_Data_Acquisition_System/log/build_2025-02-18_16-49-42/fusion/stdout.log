@@ -1,0 +1,79 @@
+running egg_info
+creating ../../build/fusion/fusion.egg-info
+writing ../../build/fusion/fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt
+writing requirements to ../../build/fusion/fusion.egg-info/requires.txt
+writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/junsu/1.cam/build/fusion/build
+creating /home/junsu/1.cam/build/fusion/build/lib
+creating /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/capture.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/roi_pls.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/testsub.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/coordinate.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/real_matrix.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/pixel_to_image.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/mouse.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/cam_lidar_double_cap.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/check_cpd.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/__init__.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/laneDetection.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/lidar_track.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/new_roi.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/matrix_test.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+copying fusion/matrix_cv.py -> /home/junsu/1.cam/build/fusion/build/lib/fusion
+running install
+running install_lib
+creating /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/capture.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/roi_pls.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/testsub.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/coordinate.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/real_matrix.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/pixel_to_image.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/mouse.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/cam_lidar_double_cap.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/check_cpd.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/__init__.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/laneDetection.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/lidar_track.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/new_roi.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/matrix_test.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/junsu/1.cam/build/fusion/build/lib/fusion/matrix_cv.py -> /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/capture.py to capture.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/roi_pls.py to roi_pls.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/testsub.py to testsub.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/coordinate.py to coordinate.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/real_matrix.py to real_matrix.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/pixel_to_image.py to pixel_to_image.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/mouse.py to mouse.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/cam_lidar_double_cap.py to cam_lidar_double_cap.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/check_cpd.py to check_cpd.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/laneDetection.py to laneDetection.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/lidar_track.py to lidar_track.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/new_roi.py to new_roi.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/matrix_test.py to matrix_test.cpython-310.pyc
+byte-compiling /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion/matrix_cv.py to matrix_cv.cpython-310.pyc
+running install_data
+creating /home/junsu/1.cam/install/fusion/share/ament_index
+creating /home/junsu/1.cam/install/fusion/share/ament_index/resource_index
+creating /home/junsu/1.cam/install/fusion/share/ament_index/resource_index/packages
+copying resource/fusion -> /home/junsu/1.cam/install/fusion/share/ament_index/resource_index/packages
+copying package.xml -> /home/junsu/1.cam/install/fusion/share/fusion
+running install_egg_info
+Copying ../../build/fusion/fusion.egg-info to /home/junsu/1.cam/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cap script to /home/junsu/1.cam/install/fusion/lib/fusion
+Installing double script to /home/junsu/1.cam/install/fusion/lib/fusion
+Installing mtest script to /home/junsu/1.cam/install/fusion/lib/fusion
+Installing roi script to /home/junsu/1.cam/install/fusion/lib/fusion
+Installing test script to /home/junsu/1.cam/install/fusion/lib/fusion
+Installing track script to /home/junsu/1.cam/install/fusion/lib/fusion
+writing list of installed files to '/home/junsu/1.cam/build/fusion/install.log'
