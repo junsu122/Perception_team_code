@@ -14,7 +14,8 @@
 ### 2. Sensor Data Processing
 * **Data Acquisition:** Cam (logitech) 및 LiDAR 데이터 실시간 캡처
 * **Camera Pre-processing:** 카메라 이미지 왜곡 보정 및 전처리
-* **LiDAR Post-processing:** * `Crop`: ROI(관심 영역) 설정
+* **LiDAR Post-processing:**
+  * `Crop`: ROI(관심 영역) 설정
   * `Cluster`: 객체 군집화 (Clustering)
   * `Line Erase`: 바닥면 제거 및 노이즈 필터링
 
