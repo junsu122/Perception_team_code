@@ -35,7 +35,7 @@
 
 ---
 
-## 💻 개발 환경 (Environment)
+## 💻 개발 환경 (Environment)(Ubuntu 22.04)
 * **Languages:** `C++`, `Python`
 * **Hardware:** Manta Camera, 3D LiDAR System(Velodyne), USB Cam(logitech)
 * **Key Frameworks:** OpenCV, YOLO, Vimba SDK
