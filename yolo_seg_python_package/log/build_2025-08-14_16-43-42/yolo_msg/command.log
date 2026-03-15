@@ -1,4 +1,0 @@
-Invoking command in '/home/junsu/yolo_python/build/yolo_msg': /usr/local/bin/cmake --build /home/junsu/yolo_python/build/yolo_msg -- -j8 -l8
-Invoked command in '/home/junsu/yolo_python/build/yolo_msg' returned '0': /usr/local/bin/cmake --build /home/junsu/yolo_python/build/yolo_msg -- -j8 -l8
-Invoking command in '/home/junsu/yolo_python/build/yolo_msg': /usr/local/bin/cmake --install /home/junsu/yolo_python/build/yolo_msg
-Invoked command in '/home/junsu/yolo_python/build/yolo_msg' returned '0': /usr/local/bin/cmake --install /home/junsu/yolo_python/build/yolo_msg

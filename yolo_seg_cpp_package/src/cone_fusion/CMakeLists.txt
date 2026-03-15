@@ -44,8 +44,6 @@ ament_target_dependencies(tf
 
 install(TARGETS 
 fusion_node
-new_fusion_node
-newnew_node
 traffic
 tf
   DESTINATION lib/${PROJECT_NAME}

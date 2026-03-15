@@ -13,7 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 yolo/__init__.py
-yolo/check_3d.py
-yolo/check_traffic.py
 yolo/cone.py
 yolo/traffic.py

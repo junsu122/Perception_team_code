@@ -1,10 +1,10 @@
 {
   "package_name": "yolo_msg",
-  "output_dir": "/home/junsu/yolo_python/build/yolo_msg/rosidl_typesupport_introspection_cpp/yolo_msg",
+  "output_dir": "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_typesupport_introspection_cpp/yolo_msg",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBox.idl",
-    "/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBoxArray.idl"
+    "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBox.idl",
+    "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBoxArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg/msg/BoundingBox.idl",
-    "/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg/msg/BoundingBoxArray.idl",
+    "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg/msg/BoundingBox.idl",
+    "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg/msg/BoundingBoxArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",
