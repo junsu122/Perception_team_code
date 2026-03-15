@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/junsu/yolo_python/src/yolo_msg
+CMAKE_SOURCE_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/junsu/yolo_python/build/yolo_msg
+CMAKE_BINARY_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/junsu/yolo_python/build/yolo_msg/CMakeFiles /home/junsu/yolo_python/build/yolo_msg//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/CMakeFiles /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/junsu/yolo_python/build/yolo_msg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -402,7 +402,7 @@ yolo_msg__py: cmake_check_build_system
 
 # fast build rule for target.
 yolo_msg__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/junsu/yolo_python/build/yolo_msg/yolo_msg__py/CMakeFiles/yolo_msg__py.dir/build.make /home/junsu/yolo_python/build/yolo_msg/yolo_msg__py/CMakeFiles/yolo_msg__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/yolo_msg__py/CMakeFiles/yolo_msg__py.dir/build.make /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/yolo_msg__py/CMakeFiles/yolo_msg__py.dir/build
 .PHONY : yolo_msg__py/fast
 
 rosidl_generator_c/yolo_msg/msg/detail/bounding_box__functions.o: rosidl_generator_c/yolo_msg/msg/detail/bounding_box__functions.c.o

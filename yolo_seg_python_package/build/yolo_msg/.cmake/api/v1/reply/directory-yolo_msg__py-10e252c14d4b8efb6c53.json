@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yolo_msg__py",
+		"source" : "/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/yolo_msg__py"
+	}
+}

@@ -25,12 +25,14 @@ class YoloSegNode(Node):
         self.bridge = CvBridge()
 
         # YOLOv8 세그멘테이션 모델 로드
-        self.model = YOLO('/home/junsu/yolo_python/src/yolo/models/best.pt')  # pt 경로 수정 가능
+        self.model = YOLO('your_weights')  # pt 경로 수정 가능
         self.labels = self.model.names  # {0: 'yellow', 1: 'blue', ...}
 
         # ROS2 통신
-        self.image_sub = self.create_subscription(Image, 'concated_cam', self.image_callback, 10)
+        self.image_sub = self.create_subscription(Image, 'concated_cam', self.image_callback, 10)   # 카메라 토픽 필요
         # self.image_sub = self.create_subscription(Image, 'camera2/image_raw', self.image_callback, 10)
+
+
         self.yellow_pub = self.create_publisher(PointStamped, 'yellow_cone', 10)
         self.blue_pub = self.create_publisher(PointStamped, 'blue_cone', 10)
         self.pixel_circle_pub = self.create_publisher(PointStamped, 'pixel_circle', 10)

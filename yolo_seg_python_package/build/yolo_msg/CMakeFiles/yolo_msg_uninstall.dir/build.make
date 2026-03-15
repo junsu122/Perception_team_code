@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/junsu/yolo_python/src/yolo_msg
+CMAKE_SOURCE_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/junsu/yolo_python/build/yolo_msg
+CMAKE_BINARY_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg
 
 # Utility rule file for yolo_msg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/yolo_msg_uninstall.dir/compiler_depend.make
 include CMakeFiles/yolo_msg_uninstall.dir/progress.make
 
 CMakeFiles/yolo_msg_uninstall:
-	/usr/local/bin/cmake -P /home/junsu/yolo_python/build/yolo_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/local/bin/cmake -P /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 yolo_msg_uninstall: CMakeFiles/yolo_msg_uninstall
 yolo_msg_uninstall: CMakeFiles/yolo_msg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/yolo_msg_uninstall.dir/clean:
 .PHONY : CMakeFiles/yolo_msg_uninstall.dir/clean
 
 CMakeFiles/yolo_msg_uninstall.dir/depend:
-	cd /home/junsu/yolo_python/build/yolo_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/junsu/yolo_python/src/yolo_msg /home/junsu/yolo_python/src/yolo_msg /home/junsu/yolo_python/build/yolo_msg /home/junsu/yolo_python/build/yolo_msg /home/junsu/yolo_python/build/yolo_msg/CMakeFiles/yolo_msg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/CMakeFiles/yolo_msg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/yolo_msg_uninstall.dir/depend
 

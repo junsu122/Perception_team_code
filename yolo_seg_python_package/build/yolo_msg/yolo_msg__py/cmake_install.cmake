@@ -1,8 +1,8 @@
-# Install script for directory: /home/junsu/yolo_python/build/yolo_msg/yolo_msg__py
+# Install script for directory: /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/yolo_msg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/junsu/yolo_python/install/yolo_msg")
+  set(CMAKE_INSTALL_PREFIX "/home/junsu/Perception_team_code/yolo_seg_python_package/install/yolo_msg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

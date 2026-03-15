@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/junsu/yolo_python/src/yolo_msg
+CMAKE_SOURCE_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/junsu/yolo_python/build/yolo_msg
+CMAKE_BINARY_DIR = /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg
 
 # Utility rule file for ament_cmake_python_build_yolo_msg_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_yolo_msg_egg:
-	cd /home/junsu/yolo_python/build/yolo_msg/ament_cmake_python/yolo_msg && /opt/ros/humble/bin/python3 setup.py egg_info
+	cd /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/ament_cmake_python/yolo_msg && /opt/ros/humble/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_yolo_msg_egg: CMakeFiles/ament_cmake_python_build_yolo_msg_egg
 ament_cmake_python_build_yolo_msg_egg: CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/depend:
-	cd /home/junsu/yolo_python/build/yolo_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/junsu/yolo_python/src/yolo_msg /home/junsu/yolo_python/src/yolo_msg /home/junsu/yolo_python/build/yolo_msg /home/junsu/yolo_python/build/yolo_msg /home/junsu/yolo_python/build/yolo_msg/CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/src/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg /home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_yolo_msg_egg.dir/depend
 

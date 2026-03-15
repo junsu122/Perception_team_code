@@ -1,2 +1,2 @@
-/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBox.idl
-/home/junsu/yolo_python/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBoxArray.idl
+/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBox.idl
+/home/junsu/Perception_team_code/yolo_seg_python_package/build/yolo_msg/rosidl_adapter/yolo_msg:msg/BoundingBoxArray.idl

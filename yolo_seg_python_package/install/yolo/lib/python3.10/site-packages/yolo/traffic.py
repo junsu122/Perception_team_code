@@ -17,7 +17,7 @@ class YOLOv8InferenceNode(Node):
     def __init__(self):
         super().__init__('yolov8_inference_node')
 
-        self.model = YOLO('/home/junsu/yolo_python/src/yolo/models/1.pt')
+        self.model = YOLO('your_weights') ## weight파일 넣기
         self.bridge = CvBridge()
 
         self.subscription = self.create_subscription(
@@ -27,7 +27,6 @@ class YOLOv8InferenceNode(Node):
             10
         )
 
-        # ✅ BoundingBoxArray publisher로 변경
         self.publisher = self.create_publisher(BoundingBoxArray, '/yolo/detections', 10)
 
         self.get_logger().info("YOLOv8 Inference Node is running...")
@@ -46,7 +45,7 @@ class YOLOv8InferenceNode(Node):
             cv2.imshow("YOLOv8 Detection", annotated)
             cv2.waitKey(1)
 
-            # ✅ 박스들을 배열로 묶기
+            # 박스들을 배열로 묶기
             bbox_array_msg = BoundingBoxArray()
             bbox_array_msg.header = Header()
             bbox_array_msg.header.stamp = self.get_clock().now().to_msg()
